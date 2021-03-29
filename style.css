@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 0 1rem;
+  background: #000;
+}
+.container {
+  position: relative;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.current-time {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 2.5rem;
+  border: 1px solid goldenrod;
+  border-radius: 50px;
+}
+
+.min-divder {
+  color: goldenrod;
+  position: absolute;
+  top: 50%;
+  left: 41%;
+  transform: translateY(-50%);
+}
+.sec-divder {
+  color: goldenrod;
+  position: absolute;
+  top: 50%;
+  left: 61%;
+  transform: translateY(-50%);
+}
+
+ul {
+  max-width: 15%;
+  min-width: 10%;
+  position: absolute;
+  top: 48vh;
+  left: 50%;
+  transition: top 0.5s ease;
+  /* transform: translate(-50%, -50%); */
+}
+
+li {
+  color: goldenrod;
+  list-style-type: none;
+  height: 5vh;
+  width: 100%;
+  font-size: 1.5rem;
+  opacity: 0.3;
+  transform: scale(0.7);
+  transition: transform 0.9s ease;
+}
+li.current {
+  opacity: 1;
+  transform: scale(1.1);
+}
+.hour-first-num {
+  top: 48vh;
+  left: 25%;
+}
+
+.hour-second-num {
+  top: 48vh;
+  left: 35%;
+}
+
+.minitues-fisrt-num {
+  top: 48vh;
+  left: 45%;
+}
+.minitues-second-num {
+  top: 48vh;
+  left: 55%;
+}
+.seconds-num {
+  top: 48vh;
+  left: 65%;
+}
+.second-seconds-num {
+  top: 48vh;
+  left: 75%;
+}
