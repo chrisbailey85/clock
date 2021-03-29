@@ -26,19 +26,23 @@ body {
   border-radius: 50px;
 }
 
-.min-divder {
+.min-divider {
   color: goldenrod;
   position: absolute;
   top: 50%;
   left: 41%;
   transform: translateY(-50%);
+  height: 2.5rem;
+  font-size: 2rem;
 }
-.sec-divder {
+.sec-divider {
   color: goldenrod;
   position: absolute;
   top: 50%;
   left: 61%;
   transform: translateY(-50%);
+  height: 2.5rem;
+  font-size: 2rem;
 }
 
 ul {
