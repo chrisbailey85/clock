@@ -20,7 +20,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100%;
+  width: 90%;
   height: 2.5rem;
   border: 1px solid goldenrod;
   border-radius: 50px;
@@ -29,20 +29,18 @@ body {
 .min-divider {
   color: goldenrod;
   position: absolute;
-  top: 50%;
-  left: 41%;
-  transform: translateY(-50%);
+  top: 4px;
+  left: 30%;
   height: 2.5rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .sec-divider {
   color: goldenrod;
   position: absolute;
-  top: 50%;
-  left: 61%;
-  transform: translateY(-50%);
+  top: 4px;
+  left: 65%;
   height: 2.5rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 ul {
@@ -50,7 +48,7 @@ ul {
   min-width: 10%;
   position: absolute;
   top: 48vh;
-  left: 50%;
+  left: 55%;
   transition: top 0.5s ease;
   /* transform: translate(-50%, -50%); */
 }
@@ -67,31 +65,138 @@ li {
 }
 li.current {
   opacity: 1;
-  transform: scale(1.1);
+  transform: scale(1);
 }
 .hour-first-num {
   top: 48vh;
-  left: 25%;
+  left: 12%;
 }
 
 .hour-second-num {
   top: 48vh;
-  left: 35%;
+  left: 22%;
 }
 
 .minitues-fisrt-num {
   top: 48vh;
-  left: 45%;
+  left: 42%;
 }
 .minitues-second-num {
   top: 48vh;
-  left: 55%;
+  left: 52%;
 }
 .seconds-num {
   top: 48vh;
-  left: 65%;
+  left: 72%;
 }
 .second-seconds-num {
   top: 48vh;
-  left: 75%;
+  left: 82%;
+}
+
+@media (min-width: 768px) {
+  .current-time {
+    width: 70%;
+    height: 3rem;
+  }
+
+  .min-divider {
+    left: 33%;
+  }
+  .sec-divider {
+    left: 70%;
+  }
+
+  .hour-first-num {
+    left: 24%;
+  }
+
+  .hour-second-num {
+    left: 32%;
+  }
+
+  .minitues-fisrt-num {
+    left: 45%;
+  }
+  .minitues-second-num {
+    left: 55%;
+  }
+  .seconds-num {
+    left: 70%;
+  }
+  .second-seconds-num {
+    left: 76%;
+  }
+}
+@media (min-width: 1024px) {
+  .current-time {
+    width: 60%;
+    top: 49%;
+  }
+
+  .min-divider {
+    top: 8px;
+    left: 33%;
+  }
+  .sec-divider {
+    top: 8px;
+    left: 68%;
+  }
+
+  .hour-first-num {
+    left: 27%;
+  }
+
+  .hour-second-num {
+    left: 34%;
+  }
+
+  .minitues-fisrt-num {
+    left: 46%;
+  }
+  .minitues-second-num {
+    left: 54%;
+  }
+  .seconds-num {
+    left: 73%;
+  }
+  .second-seconds-num {
+    left: 66%;
+  }
+}
+@media (min-width: 1440px) {
+  .current-time {
+    width: 50%;
+    top: 50%;
+  }
+
+  .min-divider {
+    top: 8px;
+    left: 31%;
+  }
+  .sec-divider {
+    top: 8px;
+    left: 65%;
+  }
+
+  .hour-first-num {
+    left: 30%;
+  }
+
+  .hour-second-num {
+    left: 36%;
+  }
+
+  .minitues-fisrt-num {
+    left: 45%;
+  }
+  .minitues-second-num {
+    left: 51%;
+  }
+  .seconds-num {
+    left: 63%;
+  }
+  .second-seconds-num {
+    left: 69%;
+  }
 }

@@ -27,12 +27,6 @@ function setOpacity(ul, num) {
 function upadteTime(ul, num) {
     let top = 48;
 
-    // function setOpacity(ul, num) {
-    //     const listItems = document.querySelectorAll(`.${ul} li`);
-    //     listItems.forEach((li, idx) => {
-    //         num === idx ? li[idx].style.opacity === 1 : li[idx].style.opacity === 0.5
-    //     })
-    // }
 
     switch (num) {
         case '1':
